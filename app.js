@@ -9,7 +9,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function(){
 });
 
 var connector = new botbuilder.ChatConnector({
-    appId: process.MICROSOF_APP_ID,
+    appId: process.env.MICROSOFT_APP_ID,
     appPassword: process.env.MICROSOFT_APP_PASSWORD
 });
 
