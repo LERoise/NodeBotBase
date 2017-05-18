@@ -24,6 +24,6 @@ bot.dialog('/', function(session){
     }
     else
     {
-        session.send('...');
+        session.send('Sorry, I dont understand...');
     }
 });
