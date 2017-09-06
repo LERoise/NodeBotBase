@@ -31,7 +31,7 @@ Install [BotFramework-Emulator]()
 
 [Api.ai](https://api.ai) (Google)
 
-####Other cognetive services
+#### Other cognetive services
 
 [Microsoft](https://azure.microsoft.com/en-us/services/cognitive-services/)
 
