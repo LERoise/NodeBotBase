@@ -19,11 +19,11 @@ server.post('/api/messages', connector.listen());
 
 //Dialog
 bot.dialog('/', function(session){
-    if(session.message.text.includes('Hello')){
+    if(session.message.text.toLowerCase().includes('hello')){
         session.send("Hello World");
     }
     else
     {
-        session.send('Sorry, I dont understand...');
+        session.send('Sorry, I don\'t understand...');
     }
 });
